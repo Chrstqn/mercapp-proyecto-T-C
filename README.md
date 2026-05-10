@@ -5,8 +5,11 @@ Este proyecto es una Single Page Application (SPA) desarrollada con Vue 3, dise�
 **Realizado por:**
 
 Nombre: Christian Taipe
+
 Institución: Universidad Politécnica Salesiana
+
 Carrera: Ingeniería de Software
+
 Asignatura: Aplicaciones Web
 
 **Funcionalidades Implementadas**
@@ -43,9 +46,9 @@ Para instalar dependencias se utiliza:
 **Ejecución**
 
 Para iniciar la API:
+Si usas json-server o tu script de node
 
-   # Si usas json-server o tu script de node
-   npm run api 
+    npm run api 
 
 Para iniciar el Frontend o Modo Desarrollo:
 
