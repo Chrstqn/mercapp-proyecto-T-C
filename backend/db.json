@@ -1,0 +1,27 @@
+{
+  "categories": [
+    { "id": 1, "name": "Corte Láser" },
+    { "id": 2, "name": "Impresión 3D" },
+    { "id": 3, "name": "Arreglos MDF" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lámpara Sakura MDF",
+      "description": "Lámpara con diseño japonés cortada en MDF de 3mm. Ideal para luz ambiental.",
+      "price": 18.50,
+      "imageUrl": "https://picsum.photos/400/300?random=1",
+      "categoryId": 1,
+      "stock": 12
+    },
+    {
+      "id": 2,
+      "name": "Soporte Audífonos 3D",
+      "description": "Soporte ergonómico impreso en PLA de alta resistencia.",
+      "price": 12.00,
+      "imageUrl": "https://picsum.photos/400/300?random=2",
+      "categoryId": 2,
+      "stock": 8
+    }
+  ]
+}
