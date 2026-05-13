@@ -1,27 +1,81 @@
 {
   "categories": [
-    { "id": 1, "name": "Corte Láser" },
-    { "id": 2, "name": "Impresión 3D" },
-    { "id": 3, "name": "Arreglos MDF" }
+    { "id": "1", "name": "Corte Láser" },
+    { "id": "2", "name": "Impresión 3D" },
+    { "id": "3", "name": "Arreglos MDF" }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Lámpara Sakura MDF",
       "description": "Lámpara con diseño japonés cortada en MDF de 3mm. Ideal para luz ambiental.",
       "price": 18.50,
       "imageUrl": "https://picsum.photos/400/300?random=1",
-      "categoryId": 1,
+      "categoryId": "1",
       "stock": 12
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Soporte Audífonos 3D",
       "description": "Soporte ergonómico impreso en PLA de alta resistencia.",
       "price": 12.00,
       "imageUrl": "https://picsum.photos/400/300?random=2",
-      "categoryId": 2,
+      "categoryId": "2",
       "stock": 8
+    },
+    {
+      "id": "3",
+      "name": "Llavero Personalizado",
+      "description": "Llavero grabado en madera con nombres personalizados.",
+      "price": 3.50,
+      "imageUrl": "https://picsum.photos/400/300?random=3",
+      "categoryId": "1",
+      "stock": 50
+    },
+    {
+      "id": "4",
+      "name": "Maceta Geométrica 3D",
+      "description": "Maceta minimalista ideal para suculentas.",
+      "price": 7.25,
+      "imageUrl": "https://picsum.photos/400/300?random=4",
+      "categoryId": "2",
+      "stock": 15
+    },
+    {
+      "id": "5",
+      "name": "Caja de Regalo Calada",
+      "description": "Caja decorativa con motivos florales en MDF.",
+      "price": 9.99,
+      "imageUrl": "https://picsum.photos/400/300?random=5",
+      "categoryId": "3",
+      "stock": 20
+    },
+    {
+      "id": "6",
+      "name": "Reloj de Pared Minimalista",
+      "description": "Reloj cortado a láser con números romanos.",
+      "price": 22.00,
+      "imageUrl": "https://picsum.photos/400/300?random=6",
+      "categoryId": "1",
+      "stock": 5
+    },
+    {
+      "id": "7",
+      "name": "Figura Coleccionable Articulada",
+      "description": "Robot impreso en 3D con múltiples puntos de articulación.",
+      "price": 15.75,
+      "imageUrl": "https://picsum.photos/400/300?random=7",
+      "categoryId": "2",
+      "stock": 10
+    },
+    {
+      "id": "8",
+      "name": "Organizador de Escritorio",
+      "description": "Kit de ensamblaje fácil para oficina en MDF.",
+      "price": 14.00,
+      "imageUrl": "https://picsum.photos/400/300?random=8",
+      "categoryId": "3",
+      "stock": 18
     }
   ]
 }

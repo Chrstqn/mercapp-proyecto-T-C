@@ -27,9 +27,8 @@ Implementación Técnica
 Durante esta fase se implementó la lógica core de la aplicación siguiendo los estándares de Vue 3 (Composition API):
 
 - Composables (Patrón Custom Hook): Se desarrolló useApi.js, un composable encargado de gestionar peticiones asíncronas de forma genérica. Este maneja tres estados reactivos críticos:
-    - data: Almacena la respuesta del servidor.
-    - loading: Estado booleano para mostrar indicadores de carga al usuario.
-    - error: Captura y expone mensajes de error en caso de fallos de red o de API.
+    - useApi.js: Gestiona peticiones asíncronas de forma genérica con estados reactivos para data, loading y error.
+    - useCart.js: Centraliza la lógica de compra mediante un estado compartido (Singleton), permitiendo que los datos del carrito persistan entre diferentes vistas y sesiones mediante localStorage.
 
 - Filtrado Reactivo con Computed Properties: El catálogo utiliza una propiedad computada (filteredProducts) que sincroniza en tiempo real el buscador de texto y el filtro por categorías, optimizando el rendimiento al no realizar peticiones innecesarias al servidor durante la búsqueda.
 
@@ -49,13 +48,13 @@ Componentización y Comunicación:
 Requisitos Previos
 
 - Node.js (versión 16 o superior)
-- npm o yarn
+- npm
 
 **Instalación**
 
 Para clonar el repositorio se utiliza:
 
-    git clone https://github.com/TU_USUARIO/mercapp.git
+    git clone https://github.com/Chrstqn/mercapp-proyecto-T-C.git
 
 Para instalar dependencias se utiliza:
 
@@ -71,3 +70,13 @@ Si usas json-server o tu script de node
 Para iniciar el Frontend o Modo Desarrollo:
 
     npm run dev
+
+**Notas de Entrega**
+
+- La aplicación incluye una ruta de manejo de errores (404 Not Found).
+- Se implementó Lazy Loading en las rutas para mejorar el tiempo de carga inicial.
+- El archivo db.json cuenta con una semilla de datos de 8 productos y 3 categorías.
+
+**URL del repositorio**
+
+https://github.com/Chrstqn/mercapp-proyecto-T-C.git

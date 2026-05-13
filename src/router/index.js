@@ -12,6 +12,19 @@ const routes = [
     component: () => import('../views/ProductDetail.vue'),
     props: true
   },
+  
+  {
+    path: '/product/new',
+    name: 'ProductCreate',
+    component: () => import('../views/ProductFormView.vue')
+  },
+  {
+    path: '/product/:id/edit',
+    name: 'ProductEdit',
+    component: () => import('../views/ProductFormView.vue'),
+    props: true
+  },
+  // ------------------------------------------------
   {
     path: '/cart',
     name: 'Cart',
